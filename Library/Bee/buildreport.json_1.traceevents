@@ -1,0 +1,521 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1642169292522002, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642169292523065, "dur": 25099, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642169292548476, "dur": 64317, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642169292612812, "dur": 536019, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642169293148833, "dur": 4685407, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642169297834254, "dur": 24841, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642169308240429, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642169308240637, "dur": 8199, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642169308248837, "dur": 32786, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642169308281625, "dur": 397124, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642169308678751, "dur": 605268, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642169309284021, "dur": 13535, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642169309298114, "dur": 23, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1642169308552871, "dur": 118717, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1642169308553685, "dur": 37203, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1642169308658782, "dur": 3758, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1642169308662543, "dur": 9040, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1642169308663082, "dur": 7702, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1642169308675138, "dur": 1300, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1642169308674522, "dur": 1935, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642169309298230, "dur": 217, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1642169308726261, "dur":1284, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169308727548, "dur":39, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1642169308727603, "dur":9, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1642169308727613, "dur":454, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1642169308728105, "dur":454, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169308728559, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309276798, "dur":235, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277033, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277054, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277062, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277081, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277082, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277087, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277088, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277094, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277095, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277100, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277100, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277105, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277106, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277111, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277112, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277117, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277118, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277122, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277123, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277127, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277128, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277132, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277133, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277137, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277154, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309277158, "dur":1564, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1642169308728220, "dur":343, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642169308728564, "dur":4362, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642169308732935, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1642169308732939, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642169308734053, "dur":383, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1642169308734439, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1642169308734502, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642169308734727, "dur":5254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1642169308739984, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1642169308740149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642169308740881, "dur":1884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1642169308742832, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1642169308742954, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642169308742959, "dur":59592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1642169308802612, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1642169308802725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642169308803047, "dur":40994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1642169308844096, "dur":48785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642169308892895, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642169308892902, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642169308894402, "dur":27629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642169308922035, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642169308922045, "dur":4608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642169308926714, "dur":29469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642169308956187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642169308956194, "dur":22475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642169308978722, "dur":24742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642169309003470, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642169309003480, "dur":4584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642169309008125, "dur":34102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642169309042230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642169309042236, "dur":12511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642169309054805, "dur":124744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642169309179555, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642169309179564, "dur":3448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642169309183069, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1642169309183127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642169309183184, "dur":1329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1642169309184562, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1642169309184612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642169309184618, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1642169309185996, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1642169309186045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642169309186051, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1642169309187662, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1642169309187716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642169309187721, "dur":4615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1642169309192391, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1642169309192446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642169309192491, "dur":2010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1642169309194550, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1642169309194602, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642169309194611, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1642169309195866, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1642169309195926, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642169309195930, "dur":2197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1642169309198181, "dur":78617, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642169308728224, "dur":343, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642169308728567, "dur":4391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642169308732959, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1642169308733185, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642169308743336, "dur":174692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1642169308918088, "dur":21912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642169308940003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642169308940012, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642169308941492, "dur":30643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642169308972142, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642169308972156, "dur":1416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642169308973615, "dur":14924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642169308988544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642169308988552, "dur":5178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642169308993779, "dur":14254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642169309008036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642169309008042, "dur":6691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642169309014785, "dur":41622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642169309056411, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642169309056420, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642169309057782, "dur":53481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642169309111270, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642169309111280, "dur":1832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642169309113162, "dur":23176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642169309136341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642169309136347, "dur":1240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642169309137638, "dur":21151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642169309158792, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642169309158800, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642169309160252, "dur":82043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642169309242299, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642169309242307, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642169309243375, "dur":33421, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642169308728255, "dur":317, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642169308728572, "dur":4370, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642169308732942, "dur":8221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1642169308741165, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642169308741177, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1642169308742518, "dur":58476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1642169308801029, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642169308801039, "dur":1757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1642169308802843, "dur":39167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642169308842016, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642169308842023, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642169308843271, "dur":14537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642169308857812, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642169308857821, "dur":1534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642169308859415, "dur":14663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642169308874114, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642169308874126, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642169308875529, "dur":84610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642169308960146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642169308960155, "dur":2349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642169308962554, "dur":15903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642169308978463, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642169308978472, "dur":1184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642169308979710, "dur":33283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642169309012999, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642169309013008, "dur":16152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642169309029215, "dur":34622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642169309063842, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642169309063851, "dur":1521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642169309065427, "dur":93908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642169309159338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642169309159344, "dur":1589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642169309160985, "dur":57626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642169309218615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642169309218622, "dur":1040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642169309219697, "dur":57103, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642169308728277, "dur":299, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642169308728577, "dur":4356, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642169308732935, "dur":8133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1642169308741072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642169308741096, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1642169308742258, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1642169308742607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642169308742759, "dur":60016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1642169308802829, "dur":32697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642169308835530, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642169308835900, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642169308836933, "dur":26409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642169308863346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642169308863352, "dur":1190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642169308864592, "dur":13046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642169308877643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642169308877651, "dur":1590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642169308879304, "dur":72988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642169308952296, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642169308952303, "dur":2780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642169308955144, "dur":31621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642169308986772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642169308986781, "dur":4235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642169308991074, "dur":16791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642169309007870, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642169309007880, "dur":1618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642169309009552, "dur":20135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642169309029691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642169309029697, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642169309030947, "dur":67321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642169309098271, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642169309098279, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642169309099551, "dur":102003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642169309201557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642169309201563, "dur":2649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642169309204256, "dur":72549, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642169308728297, "dur":284, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642169308728581, "dur":4350, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642169308732936, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1642169308733110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642169308738267, "dur":6696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1642169308745024, "dur":30070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642169308775101, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642169308775426, "dur":27331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642169308802815, "dur":37684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642169308840527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642169308840533, "dur":2502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642169308843082, "dur":20656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642169308863741, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642169308863747, "dur":1573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642169308865371, "dur":20534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642169308885911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642169308885919, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642169308887487, "dur":14558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642169308902049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642169308902055, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642169308903138, "dur":31329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642169308934471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642169308934478, "dur":5348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642169308939877, "dur":26163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642169308966048, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642169308966060, "dur":3267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642169308969380, "dur":73806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642169309043190, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642169309043197, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642169309044562, "dur":51254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642169309095822, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642169309095863, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642169309097390, "dur":89890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642169309187284, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642169309187292, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642169309188747, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1642169309188817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642169309188822, "dur":3969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1642169309192843, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1642169309192895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642169309192899, "dur":2599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1642169309195549, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1642169309195598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642169309195602, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1642169309197225, "dur":79574, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642169308728316, "dur":268, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642169308728584, "dur":4356, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642169308732941, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1642169308733180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642169308738602, "dur":7108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1642169308745768, "dur":72671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642169308818444, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642169308818553, "dur":4105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642169308822699, "dur":20338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642169308843040, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642169308843047, "dur":4038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642169308847147, "dur":18653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642169308865804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642169308865813, "dur":2950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642169308868820, "dur":31732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642169308900556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642169308900562, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642169308902263, "dur":14095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642169308916364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642169308916373, "dur":1751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642169308918184, "dur":16635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642169308934823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642169308934828, "dur":4649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642169308939538, "dur":19697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642169308959243, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642169308959254, "dur":2133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642169308961451, "dur":22407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642169308983863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642169308983870, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642169308985061, "dur":23659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642169309008724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642169309008730, "dur":6839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642169309015626, "dur":68914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642169309084544, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642169309084551, "dur":1946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642169309086547, "dur":18481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642169309105034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642169309105043, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642169309106510, "dur":94613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642169309201127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642169309201134, "dur":2524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642169309203717, "dur":73091, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642169308728338, "dur":250, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642169308728588, "dur":4346, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642169308732939, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1642169308733188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642169308744474, "dur":2077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1642169308746612, "dur":209977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642169308956592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642169308956597, "dur":16031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642169308972699, "dur":41662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642169309014364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642169309014371, "dur":14342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642169309028778, "dur":24062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642169309052846, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642169309052855, "dur":2122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642169309055024, "dur":35763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642169309090793, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642169309090802, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642169309092218, "dur":35206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642169309127429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642169309127439, "dur":1730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642169309129244, "dur":74929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642169309204204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642169309204212, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642169309205491, "dur":71309, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642169308728357, "dur":234, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642169308728591, "dur":4340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642169308732936, "dur":22045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1642169308754987, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642169308755478, "dur":46891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1642169308802433, "dur":44622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1642169308847058, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642169308847064, "dur":1920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1642169308849031, "dur":13227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642169308862265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642169308862275, "dur":1612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642169308863943, "dur":31351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642169308895298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642169308895306, "dur":1270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642169308896630, "dur":88134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642169308984768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642169308984775, "dur":8571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642169308993406, "dur":14793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642169309008203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642169309008208, "dur":6226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642169309014509, "dur":14520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642169309029033, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642169309029042, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642169309030247, "dur":54264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642169309084515, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642169309084622, "dur":1900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642169309086579, "dur":49633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642169309136218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642169309136227, "dur":1355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642169309137636, "dur":50645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642169309188285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642169309188291, "dur":1778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642169309190128, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1642169309190295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642169309190302, "dur":1382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1642169309191730, "dur":787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1642169309192520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642169309192526, "dur":1358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1642169309193946, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1642169309194009, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642169309194014, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1642169309195312, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1642169309195368, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642169309195372, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1642169309196759, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1642169309196840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642169309196846, "dur":1371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1642169309198271, "dur":78522, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1642169308728379, "dur":216, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1642169308728595, "dur":4344, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1642169308732939, "dur":8511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1642169308741453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1642169308741535, "dur":1911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1642169308743505, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1642169308743615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1642169308743620, "dur":59521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1642169308803185, "dur":37052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642169308840244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1642169308840363, "dur":1919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642169308842343, "dur":15259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642169308857608, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1642169308857617, "dur":1733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642169308859421, "dur":18502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642169308877927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1642169308877933, "dur":1468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642169308879455, "dur":13313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642169308892775, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1642169308892785, "dur":1542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642169308894383, "dur":23227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642169308917615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1642169308917623, "dur":3810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642169308921490, "dur":73092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642169308994615, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1642169308994624, "dur":1869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642169308996549, "dur":16724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642169309013277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1642169309013283, "dur":17425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642169309030759, "dur":44133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642169309074897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1642169309074905, "dur":1611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642169309076566, "dur":46616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642169309123188, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1642169309123198, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642169309124633, "dur":70671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642169309195306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1642169309195313, "dur":1676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1642169309197045, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1642169309197216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1642169309197220, "dur":1284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1642169309198554, "dur":78241, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642169308728399, "dur":199, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642169308728598, "dur":4340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642169308732940, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1642169308733111, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642169308735066, "dur":7074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1642169308742202, "dur":6300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1642169308748507, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642169308748516, "dur":53950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1642169308802521, "dur":42319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun.exe" }}
+,{ "pid":12345, "tid":10, "ts":1642169308844843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642169308844849, "dur":1800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun.exe" }}
+,{ "pid":12345, "tid":10, "ts":1642169308846704, "dur":16142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642169308862850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642169308862857, "dur":1597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642169308864515, "dur":35477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642169308899999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642169308900008, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642169308901957, "dur":32676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642169308934636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642169308934642, "dur":3040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642169308937737, "dur":14201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642169308951942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642169308951950, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642169308953170, "dur":29818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642169308982995, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642169308983005, "dur":6679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642169308989750, "dur":42442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642169309032233, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642169309032243, "dur":8280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642169309040576, "dur":43300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642169309083883, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642169309083892, "dur":1891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642169309085834, "dur":43556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642169309129393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642169309129401, "dur":1214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642169309130668, "dur":67928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642169309198600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1642169309198606, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1642169309199989, "dur":76823, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642169308728417, "dur":184, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642169308728601, "dur":4336, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642169308732937, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1642169308733174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642169308738232, "dur":172393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1642169308910689, "dur":23256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642169308933951, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642169308933961, "dur":1543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642169308935559, "dur":14694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642169308950261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642169308950271, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642169308951708, "dur":15479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642169308967194, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642169308967204, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642169308968634, "dur":27797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642169308996435, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642169308996444, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642169308997764, "dur":15634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642169309013401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642169309013437, "dur":2319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642169309015807, "dur":26392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642169309042205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642169309042214, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642169309043552, "dur":154179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642169309197734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1642169309197740, "dur":1838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1642169309199631, "dur":77163, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1642169308728445, "dur":160, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1642169308728605, "dur":4330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1642169308732936, "dur":8507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1642169308741446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1642169308741458, "dur":1296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1642169308742817, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1642169308742941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1642169308742947, "dur":184973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1642169308927989, "dur":27073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1642169308955067, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1642169308955075, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1642169308956314, "dur":17417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1642169308973735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1642169308973743, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1642169308974934, "dur":15653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1642169308990592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1642169308990600, "dur":2758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1642169308993411, "dur":77682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1642169309071099, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1642169309071108, "dur":2033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1642169309073195, "dur":83509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1642169309156710, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1642169309156720, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1642169309158637, "dur":115587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1642169309274228, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1642169309274235, "dur":2502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/HP/Desktop/hypercas/Hyper Casual Oyun_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1642169309276774, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1642169309276775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642169309280087, "dur":1384, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1642169309298508, "dur": 659, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642169309298102, "dur": 1085, "ph": "X", "name": "Write chrome-trace events", "args": {} },
